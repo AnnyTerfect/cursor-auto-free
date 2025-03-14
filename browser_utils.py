@@ -49,7 +49,7 @@ class BrowserManager:
 
         return co
 
-    def _get_extension_path(self,exname='turnstilePatch'):
+    def _get_extension_path(self, exname="turnstilePatch"):
         """获取插件路径"""
         root_dir = os.getcwd()
         extension_path = os.path.join(root_dir, exname)
